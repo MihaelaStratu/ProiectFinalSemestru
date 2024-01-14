@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProiectFinalSemestru.ListPage"
+             Title="Add Sponsor">
+    <StackLayout Margin="20">
+        <Editor Placeholder="Enter the name of the sponsor"
+Text="{Binding Name}"
+HeightRequest="10" />
+        <Editor Placeholder="Enter the contact of the sponsor"
+ Text="{Binding Contact}"
+ HeightRequest="10" />
+        <Editor Placeholder="Enter the mail adress of the sponsor"
+Text="{Binding Adresa_email}"
+HeightRequest="10" />
+        <Editor Placeholder="Enter the description of the sponsor"
+Text="{Binding Description}"
+HeightRequest="100" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Save"
+ Clicked="OnSaveButtonClicked" />
+            <Button Grid.Column="1"
+ Text="Delete"
+ Clicked="OnDeleteButtonClicked"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
