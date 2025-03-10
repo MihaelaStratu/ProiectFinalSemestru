@@ -1,0 +1,1 @@
+Acest proiect l-am realizat pentru finalul materiei "Medii de programare" la care am învățat folosirea .NET. În cadrul proiectului am realizat o aplicație în care un organizator poate introduce evenimente. Pentru acestea se poate alege sponsorii, categoria, speaker-ii, partenerii și data în care are loc. 
